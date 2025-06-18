@@ -18,30 +18,9 @@ const PROJECTS = [
     github: 'https://github.com/omilescuvlad/file_organiser',
     demo: '',
   },
-  {
-    title: 'Sistem Embedded IoT',
-    desc: 'Monitorizare senzori cu microcontroler și transmitere date.',
-    tags: ['C++', 'Embedded Systems'],
-    github: 'https://github.com/omilescuvlad/iot-sensors',
-    demo: '',
-  },
-  {
-    title: 'Interfață desktop pentru baze de date',
-    desc: 'CRUD vizual pentru baze de date relaționale.',
-    tags: ['C#', 'SQL'],
-    github: 'https://github.com/omilescuvlad/db-desktop-app',
-    demo: '',
-  },
-  {
-    title: 'Optimizare interogări complexe',
-    desc: 'Analiză și optimizare SQL pentru performanță ridicată.',
-    tags: ['SQL'],
-    github: 'https://github.com/omilescuvlad/sql-optimization',
-    demo: '',
-  },
 ];
 
-const FILTERS = ['Python', 'C', 'C++', 'C#', 'SQL', 'Embedded Systems', 'GML'];
+const FILTERS = ['Python', 'GML'];
 
 export default function Portfolio() {
   const [active, setActive] = useState('All');
