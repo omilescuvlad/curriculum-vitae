@@ -1,0 +1,109 @@
+.portfolioRoot {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.portfolioTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 1.5rem;
+}
+
+.filtersBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.filterBtn {
+  background: #f3f4f6;
+  color: #2563eb;
+  border: none;
+  border-radius: 9999px;
+  padding: 0.4rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.filterBtn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+.active {
+  background: #2563eb;
+  color: #fff;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+@media (min-width: 600px) {
+  .projectsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.projectCard {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 180px;
+}
+.projectCard h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 0.25rem;
+}
+.desc {
+  color: #374151;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.tag {
+  background: #2563eb;
+  color: #fff;
+  border-radius: 9999px;
+  padding: 0.2rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+.actionBtn {
+  background: #f3f4f6;
+  color: #2563eb;
+  border: none;
+  border-radius: 9999px;
+  padding: 0.4rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+.actionBtn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+/* GML tag inherits .tag styles */ 
