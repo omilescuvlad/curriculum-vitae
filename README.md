@@ -172,8 +172,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - **Name**: Vlad Omilescu
 - **GitHub**: [@omilescuvlad](https://github.com/omilescuvlad)
-- **Email**: [Your Email]
-
----
-
-⭐ **Star this repository if you found it helpful!**
+- **Email**: vlad.omilescu@gmail.com
