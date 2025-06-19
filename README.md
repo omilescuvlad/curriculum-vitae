@@ -73,6 +73,60 @@ npm run build
 
 The built files will be in the `dist` directory.
 
+## 🌐 Deployment & Hosting
+
+### **Deploy to Vercel (Recommended)**
+
+1. **Push your code to GitHub**
+   ```bash
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
+
+2. **Deploy to Vercel**
+   - Go to [vercel.com](https://vercel.com) and sign up
+   - Click "New Project"
+   - Import your GitHub repository
+   - Vercel will automatically detect it's a Vite project
+   - Click "Deploy"
+
+3. **Add Custom Domain**
+   - In your Vercel dashboard, go to your project
+   - Click "Settings" → "Domains"
+   - Add `omilescuvlad.com` and `www.omilescuvlad.com`
+   - Follow the DNS configuration instructions
+
+### **Alternative: Netlify**
+
+1. **Deploy to Netlify**
+   - Go to [netlify.com](https://netlify.com) and sign up
+   - Click "New site from Git"
+   - Connect your GitHub repository
+   - Build settings:
+     - Build command: `npm run build`
+     - Publish directory: `dist`
+   - Click "Deploy site"
+
+2. **Add Custom Domain**
+   - In Netlify dashboard, go to "Domain settings"
+   - Add custom domain: `omilescuvlad.com`
+   - Configure DNS records as instructed
+
+### **DNS Configuration**
+
+Add these records to your domain provider:
+
+```
+Type: A
+Name: @
+Value: [Your hosting provider's IP]
+
+Type: CNAME  
+Name: www
+Value: [your-app.vercel.app] or [your-app.netlify.app]
+```
+
 ## 📁 Project Structure
 
 ```
@@ -92,6 +146,7 @@ curriculum-vitae/
 ├── index.html                  # HTML template
 ├── package.json                # Dependencies and scripts
 ├── vite.config.js              # Vite configuration
+├── vercel.json                 # Vercel deployment config
 └── eslint.config.js            # ESLint configuration
 ```
 
@@ -161,3 +216,4 @@ Modify the content in `src/App.jsx` to update:
 - **Name**: Vlad Omilescu
 - **GitHub**: [@omilescuvlad](https://github.com/omilescuvlad)
 - **Email**: vlad.omilescu@gmail.com
+- **Website**: [omilescuvlad.com](https://omilescuvlad.com)
