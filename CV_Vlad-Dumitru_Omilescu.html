@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad-Dumitru Omilescu - CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1e40af;
+            margin: 0;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #64748b;
+            margin: 10px 0;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #475569;
+        }
+        .section {
+            margin: 25px 0;
+        }
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #1e40af;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .skill {
+            background: #f1f5f9;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #475569;
+        }
+        .project {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            background: #f8fafc;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+        .project-desc {
+            color: #475569;
+            margin-bottom: 10px;
+        }
+        .project-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+        .education-item, .cert-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 3px solid #2563eb;
+            background: #f8fafc;
+        }
+        .edu-title, .cert-title {
+            font-weight: bold;
+            color: #1e40af;
+        }
+        .edu-subtitle, .cert-subtitle {
+            color: #64748b;
+            font-style: italic;
+        }
+        .edu-location {
+            color: #94a3b8;
+            font-size: 0.9em;
+        }
+        .interests-list {
+            list-style: none;
+            padding: 0;
+        }
+        .interest-item {
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        @media print {
+            body { background: white; }
+            .cv-container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <h1 class="name">VLAD-DUMITRU OMILESCU</h1>
+            <p class="title">Computer Science Graduate | Software Developer</p>
+            <div class="contact-info">
+                <div class="contact-item">📍 Timișoara, Romania</div>
+                <div class="contact-item">✉️ vlad.omilescu@gmail.com</div>
+                <div class="contact-item">📱 0746585038</div>
+                <div class="contact-item">🔗 github.com/omilescuvlad</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Computer Science graduate with a strong foundation in programming, algorithms, and software development. Experienced in multiple programming languages and frameworks including Python, C/C++, JavaScript, and React. Demonstrated expertise in data structures, algorithmic thinking, and modern development practices. Successfully completed multiple personal projects showcasing problem-solving abilities and technical skills. Passionate about cybersecurity, machine learning, and emerging technologies. Strong teamwork and communication skills developed through collaborative projects and continuous self-improvement. Eager to contribute innovative solutions in dynamic, technology-driven environments.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">Python</div>
+                <div class="skill">C/C++</div>
+                <div class="skill">C#</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <div class="skill">Node.js</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Git</div>
+                <div class="skill">Docker</div>
+                <div class="skill">Linux</div>
+                <div class="skill">Embedded Systems</div>
+                <div class="skill">GML</div>
+                <div class="skill">Data Structures</div>
+                <div class="skill">Algorithms</div>
+                <div class="skill">Machine Learning</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li><strong>Romanian:</strong> Native</li>
+                <li><strong>English:</strong> C1 (Advanced)</li>
+                <li><strong>German:</strong> Beginner</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="edu-title">2022-2025: Polytechnic University of Timișoara</div>
+                <div class="edu-subtitle">Computer Science - Bachelor's Degree</div>
+                <div class="edu-location">Relevant coursework: Data Structures & Algorithms, Database Systems, Software Engineering, Computer Networks, Operating Systems, Web Development</div>
+            </div>
+            <div class="education-item">
+                <div class="edu-title">2018-2022: "Iosif Vulcan" National College</div>
+                <div class="edu-subtitle">Mathematics-Informatics</div>
+                <div class="edu-location">Oradea</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Personal Projects</h2>
+            <div class="project">
+                <div class="project-title">Joc 2D - Cryptography Adventure</div>
+                <div class="project-desc">Educational 2D RPG puzzle-adventure game focused on cryptography concepts. Developed in GameMaker Studio with pixel art graphics, turn-based combat system, interactive dialogues, and educational content about network security and encryption.</div>
+                <div class="project-tags">
+                    <span class="tag">GML</span>
+                    <span class="tag">Game Development</span>
+                    <span class="tag">Cryptography</span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">File Organiser Pro</div>
+                <div class="project-desc">Advanced Python script for automated file management and organization. Features intelligent categorization by file type, duplicate detection, and customizable organization rules. Includes GUI interface and command-line options.</div>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">File Management</span>
+                    <span class="tag">GUI</span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">Personal Portfolio Website</div>
+                <div class="project-desc">Modern, responsive portfolio website built with React and Framer Motion. Features smooth animations, mobile-first design, and showcases technical projects and skills. Implements modern web development practices.</div>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Framer Motion</span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">Algorithm Visualizer</div>
+                <div class="project-desc">Interactive web application for visualizing sorting and pathfinding algorithms. Built with vanilla JavaScript and HTML5 Canvas. Helps users understand algorithm behavior through step-by-step visualization.</div>
+                <div class="project-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Algorithms</span>
+                    <span class="tag">Data Visualization</span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">Task Management API</div>
+                <div class="project-desc">RESTful API for task management built with Node.js and Express. Features user authentication, CRUD operations, and database integration. Includes comprehensive testing and documentation.</div>
+                <div class="project-tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">REST API</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-item">
+                <div class="cert-title">IT Professional Competence Certificate</div>
+                <ul>
+                    <li>Design and structure of software products</li>
+                    <li>Customization and configuration of software applications</li>
+                    <li>Software development lifecycle management</li>
+                </ul>
+            </div>
+            <div class="cert-item">
+                <div class="cert-title">IC3-GSS Certificate</div>
+                <ul>
+                    <li>Key Applications (Experienced)</li>
+                    <li>Living Online (Experienced)</li>
+                    <li>Computing Fundamentals (Experienced)</li>
+                </ul>
+            </div>
+            <div class="cert-item">
+                <div class="cert-title">Web Development Certification</div>
+                <ul>
+                    <li>Frontend Development with React</li>
+                    <li>Backend Development with Node.js</li>
+                    <li>Database Design and SQL</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Interests & Activities</h2>
+            <ul class="interests-list">
+                <li class="interest-item">💻 Personal programming projects and open-source contributions</li>
+                <li class="interest-item">🏆 Competitive programming (LeetCode, HackerRank)</li>
+                <li class="interest-item">🔒 Cybersecurity challenges and CTF competitions</li>
+                <li class="interest-item">🤖 Machine Learning and AI projects</li>
+                <li class="interest-item">👥 Active participation in tech communities and hackathons</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

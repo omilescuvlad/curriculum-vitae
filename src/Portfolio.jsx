@@ -5,22 +5,29 @@ import styles from './Portfolio.module.css';
 
 const PROJECTS = [
   {
-    title: 'Joc 2D',
-    desc: 'Joc RPG puzzle-adventure 2D educativ in domeniul criptografiei. Dezvoltat în GameMaker proiectul include un sistem de dialog, batalii turn-based și grafică pixel art.',
-    tags: ['GML'],
+    title: 'Network mission',
+    desc: 'Developed a 2D educational puzzle-adventure RPG designed to teach core cryptography concepts through engaging gameplay. Engineered two native C extensions utilizing the OpenSSL library to simulate a real terminal. Programmed core game systems, including a dynamic dialogue interface and a turn-based battle system where puzzles replace traditional combat.',
+    tags: ['GameMaker', 'GML', 'C', 'OpenSSL'],
     github: 'https://github.com/omilescuvlad/Misiune-in-Retea',
     demo: '',
   },
   {
-    title: 'File Organiser',
-    desc: 'Script Python care organizează automat fișierele dintr-un director pe foldere, în funcție de extensie. Ușor de folosit pentru managementul fișierelor.',
+    title: 'Automated File System Organizer',
+    desc: 'Engineered a Python script to automate the organization of cluttered directories by sorting files into folders based on their extension. Implemented robust error handling to verify path existence and skip directories, ensuring reliable execution. Designed for ease of use with a clear function call, making it a versatile tool for recurring cleanup tasks.',
     tags: ['Python'],
     github: 'https://github.com/omilescuvlad/file_organiser',
     demo: '',
   },
+  {
+    title: 'Interactive Web-Based Curriculum Vitae',
+    desc: 'Developed a dynamic and responsive single-page application (SPA) to serve as a professional digital curriculum vitae. Engineered with React to create a modular and maintainable component structure, ensuring easy content updates and a seamless user experience. Designed and implemented a modern, clean UI with custom CSS styling for full responsiveness.',
+    tags: ['React', 'JavaScript', 'HTML/CSS'],
+    github: 'https://github.com/omilescuvlad/curriculum-vitae',
+    demo: '',
+  },
 ];
 
-const FILTERS = ['Python', 'GML'];
+const FILTERS = ['All', 'Python', 'JavaScript', 'React', 'C', 'GML', 'GameMaker'];
 
 export default function Portfolio() {
   const [active, setActive] = useState('All');
@@ -33,12 +40,6 @@ export default function Portfolio() {
     <section aria-label="Personal Projects" className={styles.portfolioRoot}>
       <h2 className={styles.portfolioTitle}>Personal Projects</h2>
       <div className={styles.filtersBar}>
-        <button
-          className={active === 'All' ? `${styles.filterBtn} ${styles.active}` : styles.filterBtn}
-          onClick={() => setActive('All')}
-        >
-          All
-        </button>
         {FILTERS.map((f) => (
           <button
             key={f}

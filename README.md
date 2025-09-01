@@ -1,4 +1,4 @@
-# 📄 Curriculum Vitae - Vlad Omilescu
+# 📄 Curriculum Vitae - Vlad-Dumitru Omilescu
 
 A modern, responsive personal portfolio website built with React and Vite, showcasing professional experience, skills, and projects.
 
@@ -16,19 +16,20 @@ A modern, responsive personal portfolio website built with React and Vite, showc
 - Optimized for desktop, tablet, and mobile
 
 ### 🎯 **Interactive Portfolio**
-- Filterable project showcase
+- Filterable project showcase with enhanced filtering
 - Animated project cards
 - Direct links to GitHub repositories
 - Technology tags for each project
+- 5 comprehensive projects showcasing various skills
 
 ### 📄 **Professional Sections**
 - **Personal Information**: Contact details and social links
-- **Skills**: Technical skills with proficiency levels
+- **Skills**: Comprehensive technical skills including modern frameworks
 - **Languages**: Language proficiency indicators
-- **Education**: Academic background and certifications
-- **Experience**: Professional work history
-- **Projects**: Interactive portfolio with filtering
-- **Interests**: Personal interests and hobbies
+- **Education**: Academic background with detailed coursework
+- **Projects**: Interactive portfolio with filtering by technology
+- **Certifications**: Professional certifications including new web development cert
+- **Interests**: Technical interests and community involvement
 
 ### 🚀 **Performance**
 - Built with Vite for fast development and build times
@@ -48,7 +49,7 @@ A modern, responsive personal portfolio website built with React and Vite, showc
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/curriculum-vitae.git
+   git clone https://github.com/omilescuvlad/curriculum-vitae.git
    cd curriculum-vitae
    ```
 
@@ -72,6 +73,16 @@ npm run build
 ```
 
 The built files will be in the `dist` directory.
+
+## 📄 CV Files
+
+The project includes multiple formats of the CV:
+
+- **`CV_Vlad-Dumitru_Omilescu.html`** - Interactive HTML version with modern styling
+- **`CV_Vlad-Dumitru_Omilescu.txt`** - Plain text version for easy copying
+- **`CV_Vlad-Dumitru_Omilescu.pdf`** - Professional PDF version (can be generated from HTML)
+
+All CV files are available in both the `public/` and `dist/` directories.
 
 ## 🌐 Deployment & Hosting
 
@@ -132,7 +143,8 @@ Value: [your-app.vercel.app] or [your-app.netlify.app]
 ```
 curriculum-vitae/
 ├── public/
-│   ├── CV_OmilescuVlad.pdf    # PDF version of CV
+│   ├── CV_Vlad-Dumitru_Omilescu.html    # Interactive HTML CV
+│   ├── CV_Vlad-Dumitru_Omilescu.txt     # Text version of CV
 │   └── vite.svg
 ├── src/
 │   ├── assets/
@@ -146,7 +158,6 @@ curriculum-vitae/
 ├── index.html                  # HTML template
 ├── package.json                # Dependencies and scripts
 ├── vite.config.js              # Vite configuration
-├── vercel.json                 # Vercel deployment config
 └── eslint.config.js            # ESLint configuration
 ```
 
@@ -196,24 +207,35 @@ Modify the content in `src/App.jsx` to update:
 ## 🎯 Features in Detail
 
 ### Portfolio Filtering
-- Filter projects by technology tags
+- Filter projects by technology tags (Python, JavaScript, React, Node.js, GML, Game Development)
 - Smooth animations when switching filters
-- "All" option to show all projects
+- Enhanced project descriptions and technology tags
 
 ### Professional Sections
-- **Skills**: Organized by category with proficiency indicators
+- **Skills**: 16 comprehensive technical skills including modern frameworks
 - **Languages**: Visual language proficiency levels
-- **Education**: Academic achievements and certifications
-- **Experience**: Detailed work history with responsibilities
-- **Interests**: Personal interests and hobbies
+- **Education**: Academic achievements with detailed coursework
+- **Projects**: 5 detailed projects with technology breakdowns
+- **Certifications**: 3 professional certifications including web development
+- **Interests**: Technical interests and community involvement
 
-### Download CV
-- Direct download link to PDF version
-- Styled download button with hover effects
+### CV Access
+- View CV online (HTML version)
+- Download CV as PDF
+- Both options available in the footer
 
 ## 📞 Contact
 
-- **Name**: Vlad Omilescu
+- **Name**: Vlad-Dumitru Omilescu
 - **GitHub**: [@omilescuvlad](https://github.com/omilescuvlad)
 - **Email**: vlad.omilescu@gmail.com
-- **Website**: [omilescuvlad.com](https://omilescuvlad.com)
+- **Location**: Timișoara, Romania
+
+## 🔄 Recent Updates
+
+- **Enhanced Skills**: Added JavaScript, React, Node.js, Git, Docker, Linux, Machine Learning
+- **New Projects**: Added 3 new projects (Portfolio Website, Algorithm Visualizer, Task Management API)
+- **Improved Education**: Added detailed coursework information
+- **New Certifications**: Added Web Development Certification
+- **Enhanced Interests**: Added machine learning, tech communities, and hackathons
+- **Multiple CV Formats**: HTML, text, and PDF versions available

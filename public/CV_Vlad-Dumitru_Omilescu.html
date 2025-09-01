@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad-Dumitru Omilescu - CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1e40af;
+            margin: 0;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #64748b;
+            margin: 10px 0;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 15px 0;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #475569;
+        }
+        .section {
+            margin: 25px 0;
+        }
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #1e40af;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .skill {
+            background: #f1f5f9;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #475569;
+        }
+        .project {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            background: #f8fafc;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+        .project-desc {
+            color: #475569;
+            margin-bottom: 10px;
+        }
+        .project-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+        .education-item, .cert-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 3px solid #2563eb;
+            background: #f8fafc;
+        }
+        .edu-title, .cert-title {
+            font-weight: bold;
+            color: #1e40af;
+        }
+        .edu-subtitle, .cert-subtitle {
+            color: #64748b;
+            font-style: italic;
+        }
+        .edu-location {
+            color: #94a3b8;
+            font-size: 0.9em;
+        }
+        .interests-list {
+            list-style: none;
+            padding: 0;
+        }
+        .interest-item {
+            margin: 10px 0;
+            padding: 8px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        @media print {
+            body { background: white; }
+            .cv-container { box-shadow: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <h1 class="name">VLAD-DUMITRU OMILESCU</h1>
+            <p class="title">Computer Science Graduate | Master's Student in Information and Cybersecurity Systems</p>
+            <div class="contact-info">
+                <div class="contact-item">📍 Timișoara, Romania</div>
+                <div class="contact-item">✉️ vlad.omilescu@gmail.com</div>
+                <div class="contact-item">📱 0746585038</div>
+                <div class="contact-item">🔗 github.com/omilescuvlad</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Computer Science graduate with a strong foundation in programming and software development. Currently pursuing a Master of Engineering in Information and Cybersecurity Systems. Experienced in multiple programming languages including C/C++, Python, and web technologies. Demonstrated expertise in software engineering, object-oriented programming, and data structures & algorithms. Passionate about cybersecurity and network security, with practical experience in cryptographic techniques and security methodologies.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">C/C++</div>
+                <div class="skill">Python</div>
+                <div class="skill">HTML/CSS</div>
+                <div class="skill">SQL/MySQL</div>
+                <div class="skill">GML</div>
+                <div class="skill">Git/GitHub</div>
+                <div class="skill">Linux</div>
+                <div class="skill">React</div>
+                <div class="skill">Next.js</div>
+                <div class="skill">VS Code</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li><strong>Romanian:</strong> Native</li>
+                <li><strong>English:</strong> C1 (Advanced)</li>
+                <li><strong>German:</strong> Beginner</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="edu-title">2022-2025: Polytechnic University of Timișoara</div>
+                <div class="edu-subtitle">Bachelor's degree in Computer Science</div>
+                <div class="edu-location">Timisoara | Coursework: Software Engineering, Object-Oriented Programming, Data Structures & Algorithms, Networking, Discrete Math, Linear Algebra, Probability & Statistics, Calculus</div>
+            </div>
+            <div class="education-item">
+                <div class="edu-title">July 2025-present: Polytechnic University of Timișoara</div>
+                <div class="edu-subtitle">Master of Engineering - Information and Cybersecurity Systems</div>
+                <div class="edu-location">Timisoara | Coursework: Modern Cryptographic Techniques, Network & Computer Security, Web Application Security, Cloud Security, Mobile Application Security, Virology & System Vulnerabilities, Security of Industrial & Embedded Systems, Cybersecurity Standards & Methodologies, Ethics and Academic Integrity</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Personal Projects</h2>
+            <div class="project">
+                <div class="project-title">Network mission</div>
+                <div class="project-desc">Developed a 2D educational puzzle-adventure RPG designed to teach core cryptography concepts through engaging gameplay. Engineered two native C extensions utilizing the OpenSSL library to simulate a real terminal. Programmed core game systems, including a dynamic dialogue interface and a turn-based battle system where puzzles replace traditional combat.</div>
+                <div class="project-tags">
+                    <span class="tag">GameMaker</span>
+                    <span class="tag">GML</span>
+                    <span class="tag">C</span>
+                    <span class="tag">OpenSSL</span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">Automated File System Organizer</div>
+                <div class="project-desc">Engineered a Python script to automate the organization of cluttered directories by sorting files into folders based on their extension. Implemented robust error handling to verify path existence and skip directories, ensuring reliable execution. Designed for ease of use with a clear function call, making it a versatile tool for recurring cleanup tasks.</div>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-title">Interactive Web-Based Curriculum Vitae</div>
+                <div class="project-desc">Developed a dynamic and responsive single-page application (SPA) to serve as a professional digital curriculum vitae. Engineered with React to create a modular and maintainable component structure, ensuring easy content updates and a seamless user experience. Designed and implemented a modern, clean UI with custom CSS styling for full responsiveness.</div>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML/CSS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-item">
+                <div class="cert-title">CERTIFICATE OF PROFESSIONAL IT COMPETENCES</div>
+                <ul>
+                    <li>Design and structure of software products required for implementing software systems, software applications, databases, and web pages, specifically emphasizing customer-oriented software</li>
+                    <li>Customization, configuration, and modification of software applications to adapt them to a client's information systems</li>
+                </ul>
+            </div>
+            <div class="cert-item">
+                <div class="cert-title">IC3-GS5 Digital Literacy Certification | Advanced User</div>
+                <ul>
+                    <li><strong>Key Applications:</strong> Leveraging advanced features of Microsoft Office Suite (Word, Excel, PowerPoint) for creating professional documents, performing complex data analysis, and delivering dynamic presentations, all aimed at enhancing productivity and communication</li>
+                    <li><strong>Living Online:</strong> Effective utilization of digital collaboration tools and online communication platforms, alongside implementing best practices for cybersecurity, ethical conduct, and information literacy in a professional setting</li>
+                    <li><strong>Computer Fundamentals:</strong> Demonstrating comprehensive knowledge of hardware, software, and operating system management to troubleshoot common issues, optimize system performance, and efficiently manage data</li>
+                </ul>
+            </div>
+            <div class="cert-item">
+                <div class="cert-title">CCNA: Introduction to Networks</div>
+                <ul>
+                    <li><strong>Network Fundamentals:</strong> Architecting and implementing essential local area networks (LANs), including the configuration of routers and switches to ensure network connectivity</li>
+                    <li><strong>IP Connectivity:</strong> Applying IPv4 and IPv6 addressing schemes and subnetting techniques to construct scalable and efficient network infrastructures</li>
+                    <li><strong>Network Operations:</strong> Utilizing critical network administration protocols such as DNS, DHCP, and NAT to manage and maintain available network services</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Extracurriculars</h2>
+            <ul class="interests-list">
+                <li class="interest-item"><strong>Autonomous Technical Skill Development | Self-Directed Learner</strong> (Ongoing)</li>
+                <li class="interest-item">Continuously enhancing algorithmic problem-solving proficiency through competitive coding platforms (LeetCode)</li>
+                <li class="interest-item">Expanding cybersecurity expertise through practical penetration testing challenges</li>
+                <li class="interest-item">Acquiring new programming languages to tackle diverse software projects</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

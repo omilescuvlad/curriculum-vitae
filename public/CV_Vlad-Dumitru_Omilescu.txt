@@ -1,0 +1,65 @@
+VLAD-DUMITRU OMILESCU
+Computer Science Graduate | Master's Student in Information and Cybersecurity Systems
+
+CONTACT INFORMATION
+📍 Timișoara, Romania
+✉️ vlad.omilescu@gmail.com
+📱 0746585038
+🔗 github.com/omilescuvlad
+
+PROFESSIONAL SUMMARY
+Computer Science graduate with a strong foundation in programming and software development. Currently pursuing a Master of Engineering in Information and Cybersecurity Systems. Experienced in multiple programming languages including C/C++, Python, and web technologies. Demonstrated expertise in software engineering, object-oriented programming, and data structures & algorithms. Passionate about cybersecurity and network security, with practical experience in cryptographic techniques and security methodologies.
+
+TECHNICAL SKILLS
+Languages: C/C++, Python, HTML/CSS, SQL/MySQL, GML
+Tools: Git/GitHub, Linux, React, Next.js, VS Code
+
+LANGUAGES
+• Romanian: Native
+• English: C1 (Advanced)
+• German: Beginner
+
+EDUCATION
+2022-2025: Polytechnic University of Timișoara
+Bachelor's degree in Computer Science
+Timisoara | Coursework: Software Engineering, Object-Oriented Programming, Data Structures & Algorithms, Networking, Discrete Math, Linear Algebra, Probability & Statistics, Calculus
+
+July 2025-present: Polytechnic University of Timișoara
+Master of Engineering - Information and Cybersecurity Systems
+Timisoara | Coursework: Modern Cryptographic Techniques, Network & Computer Security, Web Application Security, Cloud Security, Mobile Application Security, Virology & System Vulnerabilities, Security of Industrial & Embedded Systems, Cybersecurity Standards & Methodologies, Ethics and Academic Integrity
+
+PERSONAL PROJECTS
+1. Network mission
+   Developed a 2D educational puzzle-adventure RPG designed to teach core cryptography concepts through engaging gameplay. Engineered two native C extensions utilizing the OpenSSL library to simulate a real terminal. Programmed core game systems, including a dynamic dialogue interface and a turn-based battle system where puzzles replace traditional combat.
+   Technologies: GameMaker, GML, C, OpenSSL
+
+2. Automated File System Organizer
+   Engineered a Python script to automate the organization of cluttered directories by sorting files into folders based on their extension. Implemented robust error handling to verify path existence and skip directories, ensuring reliable execution. Designed for ease of use with a clear function call, making it a versatile tool for recurring cleanup tasks.
+   Technologies: Python
+
+3. Interactive Web-Based Curriculum Vitae
+   Developed a dynamic and responsive single-page application (SPA) to serve as a professional digital curriculum vitae. Engineered with React to create a modular and maintainable component structure, ensuring easy content updates and a seamless user experience. Designed and implemented a modern, clean UI with custom CSS styling for full responsiveness.
+   Technologies: React, JavaScript, HTML/CSS
+
+CERTIFICATIONS
+• CERTIFICATE OF PROFESSIONAL IT COMPETENCES
+  - Design and structure of software products required for implementing software systems, software applications, databases, and web pages, specifically emphasizing customer-oriented software
+  - Customization, configuration, and modification of software applications to adapt them to a client's information systems
+
+• IC3-GS5 Digital Literacy Certification | Advanced User
+  - Key Applications: Leveraging advanced features of Microsoft Office Suite (Word, Excel, PowerPoint) for creating professional documents, performing complex data analysis, and delivering dynamic presentations, all aimed at enhancing productivity and communication
+  - Living Online: Effective utilization of digital collaboration tools and online communication platforms, alongside implementing best practices for cybersecurity, ethical conduct, and information literacy in a professional setting
+  - Computer Fundamentals: Demonstrating comprehensive knowledge of hardware, software, and operating system management to troubleshoot common issues, optimize system performance, and efficiently manage data
+
+• CCNA: Introduction to Networks
+  - Network Fundamentals: Architecting and implementing essential local area networks (LANs), including the configuration of routers and switches to ensure network connectivity
+  - IP Connectivity: Applying IPv4 and IPv6 addressing schemes and subnetting techniques to construct scalable and efficient network infrastructures
+  - Network Operations: Utilizing critical network administration protocols such as DNS, DHCP, and NAT to manage and maintain available network services
+
+EXTRACURRICULARS
+• Autonomous Technical Skill Development | Self-Directed Learner (Ongoing)
+  - Continuously enhancing algorithmic problem-solving proficiency through competitive coding platforms (LeetCode)
+  - Expanding cybersecurity expertise through practical penetration testing challenges
+  - Acquiring new programming languages to tackle diverse software projects
+
+This CV showcases a comprehensive skill set in computer science and cybersecurity, with practical experience in multiple programming languages and frameworks. The candidate demonstrates strong problem-solving abilities through various personal projects and maintains an active interest in emerging technologies and security methodologies.
